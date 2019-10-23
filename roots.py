@@ -53,7 +53,3 @@ def linear_roots(a=1.0, b=0.0):
         raise ValueError("The linear coefficient is zero.  This is not a linear equation.")
     else:
         return ((-b / a))
-
-if __name__ == '__main__':
-    print(quad_roots(1.0, 1.0, -12.0))
-    print(linear_roots(1.0, 2.0))
